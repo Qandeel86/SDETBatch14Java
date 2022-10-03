@@ -1,0 +1,66 @@
+Why we should exclude packages and class from compiling:
+    In intellij if we have a syntax error in any of the file in a project we cant run
+    another file unless and until we fix that error. sometimes we want to execute
+    code in some files without fixing those issues this is where we should use exclude
+How to Exclude packages:
+    Double-click the shift button twice quickly and type exclude and hit enter
+    from the pop-up window click on the plus button and select the packages that you
+    want to exclude
+How Java code is compiled/executed on a computer:
+    We write the code in files with extension .java
+    once we hit the run button a software program called compiler checks this code for errors
+    and converts it to byte code. usually stored in a folder called bin/out.
+    JVM another software further converts this code to binary code and this binary code
+    is what is executed on your computers.
+Methods in Java:
+    Method is a block of code, or some Java statements grouped together.
+Why we should learn about the methods:
+    Methods help us reduce the amount of code that we have to write. For example if a piece of code
+    is being repeated, we can create a method for it and simply call that method
+    whenever we need that logic again.
+Syntax of creating a method:
+    we can create methods only inside a class.
+    [dataType] [methodName] [(dataType variableName)] [method body]
+    [dataType] can be: void,boolean,String,int, etc...
+    [methodName] are like variable names.
+    [(dataType variableName)] used to pass data while calling a method.
+How do we decide that we should use void or a method with a return keyword:
+    If we are building a method that will be used by others or in other parts of your code which
+    require some data from your method like an if condition we should not create methods with void
+    type
+    Example:
+    String str="hello";
+        int length=str.length();
+        if(!str.isEmpty()&&length%2!=0&&length>=3{
+
+            int middleIndex=length/2;
+            System.out.println(str.charAt(middleIndex));
+        }
+
+==================================================================
+Types of variables with respect to their scope:
+    There are three types of variables with respect to their scope-
+    1)Local variables
+    2)Instance variables
+    3)Static variables
+Local variables:
+    A variable that is created inside a method, loop, switch case or any block of code is called local variable.
+    exp.
+    for(int i=0;i<5;i++){
+    System.out.println(i);<- cannot access the "i" variable outside this for loop
+    }
+    *When to use local variable:should always try to create local variables over other variables, because they occupy
+    memory on computer for the shortest amount of time; local variable is automatically destroyed right when it exits
+    the block of code.
+    Limitations of local variable:they are limited in scope, we can't use these variables outside that
+    block in which they are declared*
+Instance variables:
+    Which are declared outside a block of code but inside a class are called instance variables.
+    *When to use instance variables:when we are planning to create multiple objects of a class, or we want to share
+    something in multiple methods we should go with instance variables.
+    Limitations of instance variable:they occupy the memory for longer as compared to local variables*
+Static variables:
+    If an instance variable has a keyword "static" with it, it's called a static variable
+    *When to use static variables:when we need to share something across the objects, we use static variables.Can be
+    used anywhere.
+    Limitations of static variable:it occupies the memory for the longest amount of time.*

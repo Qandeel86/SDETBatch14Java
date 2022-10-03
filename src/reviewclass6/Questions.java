@@ -22,5 +22,11 @@ public class Questions {
         sb.reverse();
 
         System.out.println(sb);
+
+        char[] charArray=str.toCharArray();
+        for(int i= charArray.length-1;i>=0;i--){
+            System.out.print(charArray[i]);
+        }
+
     }
 }
