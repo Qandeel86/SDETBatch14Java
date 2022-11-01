@@ -51,9 +51,9 @@ class Sedan extends Car{
     @Override
     double calculateSalePrice() {
         if(carLength>20){
-            return carPrice=carPrice-(carPrice*.05);
+            return carPrice=carPrice-(carPrice*0.05);
         }else
-            return carPrice=carPrice-(carPrice*.10);
+            return carPrice=carPrice-(carPrice*0.10);
     }
 }
 
