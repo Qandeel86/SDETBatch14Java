@@ -7,6 +7,7 @@ public class Fruit {
 
     public static boolean fresh;
 
+
     public Fruit(String name){
         this.name=name;
     }
