@@ -22,5 +22,7 @@ public class ArrayListDemo4 {
         System.out.println(numbers);
         numbers.clear();//deletes all the elements from the list
         System.out.println(numbers);
+
+
     }
 }

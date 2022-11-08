@@ -1,0 +1,32 @@
+ArrayList vs LinkedList:
+    ArrayList and LinkedList both implement the list interface. But internal implementation is different. LinkedList
+    is better for manipulation(adding new data at run time in-between or in the start of the list or removing
+    data) of data. ArrayList is better when most of the time we use get method.
+Sets:
+    Sets are another set of datastructures in collections framework that allows us to store only unique data.
+    As we can convert any data structure in collections framework, we can use sets to remove duplicate data from
+    Lists we can also use sets.
+Types of sets:
+    There are many types of Sets, but we will be discussing only 1)HashSet 2)LinkedHashSet 3)TreeSet
+HashSet:
+    Upside: It is most memory efficient, and it requires less space as compared to other types of sets.
+    Downside: HashSet does not maintain the insertion order.
+LinkedHashSet:
+    Upside: Order of the elements is maintained.
+    Downside: It takes more memory, and it is slower than Hashset.
+TreeSet:
+    Upside: Data is sorted in natural order.
+    Downside: It is slowest, and it takes more memory than Hashset.
+Demos of storing the objects of a custom class
+and how we can iterate through sets
+
+Important interview question:
+    What is a toString() method?
+    toString method is used to print custom outputs whenever we try to print the object of a class println
+    method internally calls this method. This method is inherited from the Object class. All the classes that we create
+    in java automatically inherited from Object class.
+
+
+
+
+
