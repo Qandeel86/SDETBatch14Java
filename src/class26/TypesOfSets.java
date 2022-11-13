@@ -32,6 +32,7 @@ public class TypesOfSets {
         System.out.println("LinkedHashSet");
         System.out.println(linkedHashSet);
 
+
         //When ever need sorted data, use TreeSet
         TreeSet<String> treeSet=new TreeSet<>();
         treeSet.add("Mango");

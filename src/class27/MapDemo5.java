@@ -17,7 +17,7 @@ public class MapDemo5 {
 
         Iterator<Double> iterator=values.iterator();
 
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             Double value= iterator.next();
             if(value>2){
                 iterator.remove();
@@ -27,10 +27,6 @@ public class MapDemo5 {
         System.out.println(fruit);
         // fruit.values().removeIf(x->x>2); same results as code from line 15 to 24
         System.out.println(fruit);
-
-
-
-
 
 
 

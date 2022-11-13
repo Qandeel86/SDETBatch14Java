@@ -11,6 +11,8 @@ public class MapDemo1 {
         fruit.put("Orange",4.99);
         fruit.put("Banana",10.1);
 
+
+
         System.out.println(fruit);
         System.out.println(fruit.get("Orange"));
         fruit.remove("Mango"); // deletes this key and its value from the map
